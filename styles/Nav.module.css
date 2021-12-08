@@ -1,0 +1,32 @@
+.nav {
+  height: 10%vh;
+  padding: 10px;
+  background: #151630;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav h1 {
+  align-self: flex-start;
+  font-size: 2rem;
+  font-family: "Concert One", cursive;
+  margin-right: auto;
+}
+
+.nav h1:hover {
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+  text-decoration: none;
+}
