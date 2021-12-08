@@ -15,11 +15,11 @@ const Nav = () => {
         <li>
           <Link href="/store">Store</Link>
         </li>
-        {/* <li>
+        <li>
           <Link href="/cart">
             <button>Cart</button>
           </Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

@@ -73,7 +73,7 @@ const ProductPage = ({ product }) => {
       <h1>{product.name}</h1>
       <img src={product.image.url} />
       <p>{product.price.formatted_with_symbol}</p>
-      {/* <button onClick={addToCart}>Add to Cart</button> */}
+      <button onClick={addToCart}>Add to Cart</button>
       <PayPalButtons
         createOrder={(data, actions) => createOrder(data, actions)}
         onApprove={(data, actions) => onApprove(data, actions)}
