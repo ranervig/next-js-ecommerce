@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 
 import Category from "./Category";
 import categoryListStyles from "../styles/CategoryList.module.css";
